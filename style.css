@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    background: #F5E6DA; /* Warm beige */
+    color: #4D2C1D; /* Elegant marron */
+    font-family: "Lora", serif;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    color: #3A1C14;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #8C5A3B;
+    font-size: 22px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Profile Card */
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(77, 44, 29, 0.2);
+    border-radius: 12px;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Profile Image (Rectangle with Soft Edges) */
+.img-special {
+    width: 160px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Explore My World - Elegant Button */
+.btn-explore {
+    display: inline-block;
+    background: linear-gradient(135deg, #8C5A3B, #A9704A); /* Classy marron gradient */
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 18px 40px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 8px 25px rgba(77, 44, 29, 0.3);
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 60%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-explore:hover {
+    background: linear-gradient(135deg, #3A1C14, #5A3220);
+    transform: scale(1.1);
+}
+
+/* Cards */
+.card-design {
+    background: #FFF8F0;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0px 8px 20px rgba(77, 44, 29, 0.1);
+}
+
+/* Social Media Icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 10px;
+    font-size: 32px;
+    color: #A9704A;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #3A1C14;
+    transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .btn-explore {
+        padding: 12px 25px;
+        font-size: 18px;
+    }
+}
